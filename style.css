@@ -362,14 +362,22 @@ body {
 .creator i {
   font-size: 12px;
 }
+.imgf {
+  width: 270px;
+}
 @media screen and (max-width: 768px) {
   .pos_anim {
     transform: translate(6%, 0%);
-    padding-bottom: 70px;
+  }
+  .banner_header {
+    padding-right: 189px;
+  }
+  .imgf {
+    width: 180px;
   }
 
   .prd {
-    padding-right: 184px !important;
+    transform: translate(-9%, 0%);
   }
   .wrapper {
     width: 100%;
@@ -381,5 +389,6 @@ body {
     width: 100%;
     max-width: 1284px;
     display: block;
+    transform: translate(-9%, 0%) !important;
   }
 }
