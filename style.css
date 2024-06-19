@@ -28,6 +28,20 @@ body {
   height: 570px;
 }
 
+.pos_anim {
+  transform: translate(-10%, -6%);
+}
+.wrapper {
+  width: 100%;
+  max-width: 1284px;
+}
+
+.wrapper2 {
+  width: 100%;
+  max-width: 1284px;
+  display: none;
+}
+
 .circle-middle {
   display: flex;
   align-items: center;
@@ -347,4 +361,25 @@ body {
 
 .creator i {
   font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .pos_anim {
+    transform: translate(6%, 0%);
+    padding-bottom: 70px;
+  }
+
+  .prd {
+    padding-right: 184px !important;
+  }
+  .wrapper {
+    width: 100%;
+    max-width: 1284px;
+    display: none;
+  }
+
+  .wrapper2 {
+    width: 100%;
+    max-width: 1284px;
+    display: block;
+  }
 }
