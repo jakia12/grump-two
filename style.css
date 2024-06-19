@@ -365,6 +365,15 @@ body {
 .imgf {
   width: 270px;
 }
+#myWidget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.page_container {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .pos_anim {
     transform: translate(6%, 0%);
