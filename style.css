@@ -343,7 +343,17 @@ body {
 .stopanima {
   animation-play-state: paused !important;
 }
-
+.htb_img {
+  width: 89px !important;
+}
+.hover_ic {
+  transition: all 0.35s ease;
+  display: inline-block;
+  cursor: pointer;
+}
+.hover_ic:hover {
+  transform: translate(0, -21%);
+}
 /******************************/
 .creator {
   position: fixed;
@@ -364,6 +374,9 @@ body {
 }
 .imgf {
   width: 270px;
+}
+.pos_anim {
+  transform: translate(-10%, 1%);
 }
 #myWidget {
   display: flex;
