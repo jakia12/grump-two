@@ -436,4 +436,42 @@ html {
     display: block;
     transform: translate(-9%, 0%) !important;
   }
+
+  .circle-two {
+    width: 429px;
+    height: 429px;
+    border: 2px solid #6b6b6b;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .circle-one {
+    margin-left: 115px;
+    margin-top: 115px;
+    width: 270px;
+    height: 270px;
+    border: 2px solid #6b6b6b;
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-34px, -33px);
+  }
+  .circle-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 180px;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(
+      330deg,
+      rgb(95 95 95 / 40%) 0%,
+      rgb(103 103 103) 100%
+    );
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    transition: 1s;
+    transform: translate(-32px, -34px);
+  }
 }
