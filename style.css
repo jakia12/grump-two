@@ -477,6 +477,10 @@ html {
 }
 
 @media screen and (max-width: 768px) {
+  .social_header {
+    top: 0 !important;
+  }
+
   @-webkit-keyframes rotate-center {
     0% {
       -webkit-transform: rotate(0);
