@@ -391,9 +391,28 @@ html {
 /* .page_container {
   display: none;
 } */
+
 @media screen and (max-width: 768px) {
+  .banner_header h1 {
+    font-family: "Gotham";
+    margin: 0 0 5px;
+    font-size: 20px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
   .pos_anim {
     transform: translate(6%, 0%);
+  }
+  .banner_header h1 {
+    display: none;
+  }
+  .heading {
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
   }
   .banner_header {
     padding-right: 189px;
