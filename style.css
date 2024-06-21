@@ -416,6 +416,9 @@ html {
 @media screen and (max-width: 768px) {
   .done {
     display: flex;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
   }
   .ttl {
     font-size: 34px;
