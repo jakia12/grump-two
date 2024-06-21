@@ -453,7 +453,6 @@ html {
     width: 100%;
     max-width: 1284px;
     display: block;
-    transform: translate(-13%, 0%) !important;
   }
 
   .circle-two {
