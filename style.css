@@ -5,7 +5,9 @@ body,
 html {
   overflow-x: hidden;
 }
-
+.done {
+  display: none;
+}
 .circle-text {
   text-transform: uppercase;
   font-family: sans-serif;
@@ -412,6 +414,9 @@ html {
   display: none;
 }
 @media screen and (max-width: 768px) {
+  .done {
+    display: block;
+  }
   .ttl {
     font-size: 34px;
     color: #fff;
