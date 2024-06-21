@@ -87,6 +87,16 @@ html {
   border-radius: 50%;
 }
 
+.banner_header h4 {
+  font-family: "Gotham";
+  margin: 15px 0 25px;
+  font-size: 34px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
 .circle-arround-two-1,
 .circle-arround-two-2,
 .circle-arround-two-3,
@@ -392,7 +402,16 @@ html {
   display: none;
 } */
 
+.ttl {
+  font-size: 49px;
+  color: #fff;
+}
 @media screen and (max-width: 768px) {
+  .ttl {
+    font-size: 34px;
+    color: #fff;
+    margin: 8px 0;
+  }
   .banner_header h1 {
     font-family: "Gotham";
     margin: 0 0 5px;
@@ -434,7 +453,7 @@ html {
     width: 100%;
     max-width: 1284px;
     display: block;
-    transform: translate(-9%, 0%) !important;
+    transform: translate(-13%, 0%) !important;
   }
 
   .circle-two {
