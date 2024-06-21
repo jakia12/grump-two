@@ -415,7 +415,7 @@ html {
 }
 @media screen and (max-width: 768px) {
   .done {
-    display: block;
+    display: flex;
   }
   .ttl {
     font-size: 34px;
