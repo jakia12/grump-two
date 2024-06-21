@@ -406,6 +406,11 @@ html {
   font-size: 49px;
   color: #fff;
 }
+.wrapper2 {
+  width: 100%;
+  max-width: 1284px;
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .ttl {
     font-size: 34px;
