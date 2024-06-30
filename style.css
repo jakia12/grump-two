@@ -416,6 +416,8 @@ html {
 @media screen and (max-width: 768px) {
   .done {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(/images/banner.jpg);
     background-size: cover;
     background-position: center center;
