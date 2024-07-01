@@ -413,7 +413,17 @@ html {
   max-width: 1284px;
   display: none;
 }
+
+.abt-text {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
+  .abt-text {
+    text-align: justify;
+    line-height: 23px;
+  }
+
   .done {
     display: flex;
     justify-content: center;
